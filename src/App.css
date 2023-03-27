@@ -12,10 +12,6 @@
   /* grid-gap: 10 px; */
 }
 
-
-
-
-
 .content{
   grid-area: c;
   background-color: aquamarine;
@@ -24,4 +20,9 @@
 .content img{
   width: 1000px;
   height: 200px;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: aquamarine;
 }
