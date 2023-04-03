@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Music = (props) => {
+const Friends = (props) => {
     return (
         <div>
-            Music123
+            My friends
         </div>
     )
 }
 
-export default Music;
+export default Friends;
