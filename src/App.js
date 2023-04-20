@@ -7,7 +7,7 @@ import Dialogs from "./components/Dialogs/Dialogs";
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import Friends from "./components/Friends/Friends";
 
 const App = (props) => {
@@ -25,8 +25,6 @@ const App = (props) => {
                     <Route path="/dialogs/*"
                            element={<Dialogs
                                store={props.store}
-                               state={props.state.dialogsPage}
-                               dispatch={props.dispatch}
                            />}/>
                     <Route path="/news" element={<News/>}/>
                     <Route path="/music" element={<Music/>}/>
